@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "sprofile",
+
+    "public": "dist"
+  }
+}
