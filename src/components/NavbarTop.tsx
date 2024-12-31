@@ -1,9 +1,7 @@
 import { Switch } from "keep-react";
 import { useEffect, useState } from "react";
 
-type Props = { name: string };
-
-const NavbarTop = ({ name }: Props) => {
+const NavbarTop = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {

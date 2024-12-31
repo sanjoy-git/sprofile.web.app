@@ -26,10 +26,10 @@ const App: FC = () => {
   };
 
   return (
-    <div className="text-center min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
-      <NavbarTop name={"Teeee"} />
+    <div className="text-center min-h-screen p-1 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+      <NavbarTop />
       <div className=" space-y-8 xl:space-y-10">
-        <div className=" flex justify-center items-center gap-4 xl:gap-5 pt-10">
+        <div className=" flex justify-center items-center gap-4 xl:gap-5">
           <a
             href="https://github.com/sanjoy-git"
             className="hover:logo-shadow"
@@ -56,7 +56,7 @@ const App: FC = () => {
         <Divider color="secondary" size="md" variant="center">
           <h1 className=" font-bold text-2xl xl:text-3xl">Sanjoy Roy</h1>
         </Divider>
-        <div className=" space-y-2 text-xl">
+        <div className=" space-y-3 xl:space-y-5 text-xl">
           <p>
             React Developer | Founder at{" "}
             <a
